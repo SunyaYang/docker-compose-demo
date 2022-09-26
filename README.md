@@ -1,5 +1,5 @@
 # docker-compose-demo
-## 建立、重新建立容器用的映像檔
+## 建立容器用的映像檔
 $ docker-compose build
 
 ## 確認IMAGE內容
