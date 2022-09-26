@@ -14,4 +14,6 @@ CREATE TABLE `skill` (
 
 INSERT INTO skill (name) VALUES ('java');
 
+INSERT INTO skill (name) VALUES ('python');
+
 GRANT ALL PRIVILEGES ON demo.* TO 'admin'@'%';
