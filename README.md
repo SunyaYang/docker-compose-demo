@@ -15,7 +15,7 @@ $ docker-compose down
 $ docker volume ls
 $ docker images
 ## 停用、刪除容器和網路、volume，但保留image
-# 先移至docker-compose.yml檔案的路徑底下，再執行下面的指令
+### 先移至docker-compose.yml檔案的路徑底下，再執行下面的指令
 $ docker-compose down -v
 ## 看volume image是否仍存在
 $ docker volume ls
