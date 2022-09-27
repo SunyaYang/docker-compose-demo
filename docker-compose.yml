@@ -21,7 +21,6 @@ services:
       - mysql
     image: springio-api:1.1.1
     build:
-      context: .
       dockerfile: ./Dockerfile
     container_name: springio-api
     networks:
@@ -33,5 +32,8 @@ services:
     restart: always
 networks:
   demo-bridge:
+    driver: bridge
+    name: net-bridge
 volumes:
   demo-volume:
+    name: test-vol
