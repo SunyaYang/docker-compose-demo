@@ -1,4 +1,11 @@
-# docker-compose-demo
+# Docker compose版本
+![image](https://user-images.githubusercontent.com/22904639/192705006-aa1a2f0b-6b89-4ecf-a526-7b3c25c88758.png)
+# Docker版本
+![image](https://user-images.githubusercontent.com/22904639/192705389-bc90142d-df76-4f2f-8bd5-d0ea78eaa6f7.png)
+
+# docker-compose-demo 錯誤範例，請看docker-compose.yml
+
+## 以下指令皆可正常執行
 ## 建立容器用的映像檔
 $ docker-compose build
 
