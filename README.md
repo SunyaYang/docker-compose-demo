@@ -1,11 +1,25 @@
 # Docker compose版本
-![image](https://user-images.githubusercontent.com/22904639/192705006-aa1a2f0b-6b89-4ecf-a526-7b3c25c88758.png)
+![image](https://user-images.githubusercontent.com/22904639/192710264-66bfca40-36e7-4ce6-950a-318bb184f269.png)
 # Docker版本
 ![image](https://user-images.githubusercontent.com/22904639/192705389-bc90142d-df76-4f2f-8bd5-d0ea78eaa6f7.png)
 
-# docker-compose-demo 錯誤範例，請看docker-compose.yml
+# 錯誤範例：docker-compose.yml截圖
+這個寫法不正確應該無法正確build image，但在此Docker compose版本下可運作
 
-## 以下指令皆可正常執行
+![image](https://user-images.githubusercontent.com/22904639/192707150-79224294-e17a-4800-b78d-5d5758be1b9c.png)
+
+正確寫法應為以下兩種：
+
+1.
+
+![image](https://user-images.githubusercontent.com/22904639/192710168-ea3c90e0-f568-441c-abb0-4797b1bb5ab1.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/22904639/192709975-2b44e418-23e6-48ec-8068-bc0864488ef9.png)
+
+# docker-compose-demo 
+
 ## 建立容器用的映像檔
 $ docker-compose build
 
